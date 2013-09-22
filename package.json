@@ -1,0 +1,28 @@
+{
+  "name": "level-http",
+  "version": "0.0.0",
+  "description": "HTTP wrapper for LevelDB databases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fiveisprime/level-http.git"
+  },
+  "keywords": [
+    "level",
+    "leveldb",
+    "http",
+    "server"
+  ],
+  "author": "Matt Hernandez <matt@modulus.io>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "~1.11.1",
+    "level": "~0.16.0"
+  },
+  "devDependencies": {
+    "jshint": "~2.1.11"
+  }
+}
