@@ -1,4 +1,4 @@
-var server = require('./')({
+var server = require('../')({
   db: './testdb'
 , port: 8000
 , auth: {
@@ -8,6 +8,3 @@ var server = require('./')({
 });
 
 server.start();
-server.on('internalError', function(req, err) {
-  console.log(err);
-});

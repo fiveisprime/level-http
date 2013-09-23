@@ -24,7 +24,11 @@ server.start();
 
 _Note: requires a minimum node version of 0.10.x_
 
-## Supported Methods
+## Supported Routes/Methods
+
+`/data`
+
+  * GET - retrieve all keys/values
 
 `/data/:key`
 
