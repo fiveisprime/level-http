@@ -1,4 +1,4 @@
-level-http
+level-http [![Build Status](https://travis-ci.org/fiveisprime/level-http.png?branch=master)](https://travis-ci.org/fiveisprime/level-http)
 ==========
 
 Access your LevelDB instances from multiple processes using HTTP.
