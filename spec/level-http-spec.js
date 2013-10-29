@@ -40,6 +40,20 @@ describe('level-http', function() {
       expect(error).toBeDefined();
       expect(error.message).toEqual('Authentication credentials are required.');
     });
+
+    it('should throw with no configuration', function() {
+      var error = null;
+
+      try {
+        levelHttp();
+      } catch (err) {
+        error = err;
+      }
+
+      expect(error).toBeDefined();
+      expect(error.message).toEqual('You must specify a database and authentication credentials.');
+    });
+
   });
 
   describe('database operations', function() {
