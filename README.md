@@ -22,7 +22,8 @@ var server = require('level-http')({
 server.start();
 ```
 
-_Note: requires a minimum node version of 0.10.x_
+_As of version 0.1.0, node version 0.8.x and up are supported and authentication
+is also optional._
 
 ## Supported Routes/Methods
 
