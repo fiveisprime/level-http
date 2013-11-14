@@ -19,11 +19,12 @@
   "author": "Matt Hernandez <matt@modulus.io>",
   "license": "MIT",
   "dependencies": {
-    "hapi": "~1.11.1",
-    "level": "~0.16.0"
+    "level": "~0.16.0",
+    "express": "~3.4.4"
   },
   "devDependencies": {
     "jshint": "~2.1.11",
-    "jasmine-node": "~1.11.0"
+    "jasmine-node": "~1.11.0",
+    "supertest": "~0.8.1"
   }
 }
