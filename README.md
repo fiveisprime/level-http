@@ -12,7 +12,7 @@ Configure the server then start it up:
 ``` js
 var server = require('level-http')({
   db: './mydb'
-, port: 8000
+, port: process.env.PORT || 8000
 , auth: {
     username: 'test'
   , password: 'test'
