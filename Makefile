@@ -6,3 +6,8 @@ test:
 	--reporter spec \
 	--require should \
 	spec
+
+coverage:
+	@istanbul cover node_modules/.bin/_mocha -R spec
+
+.PHONY: coverage

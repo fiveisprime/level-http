@@ -5,6 +5,7 @@ var levelHttp = require('../')
   , db        = {};
 
 require('../lib/routes')(db, app);
+require('should');
 
 describe('level-http', function() {
 
@@ -46,7 +47,7 @@ describe('level-http', function() {
 
       db.put = function() {
         put = 'pass';
-        arguments[2](null, {});
+        arguments[3](null, {});
       };
 
       request(app)
