@@ -5,7 +5,6 @@ var levelHttp = require('../')
   , db        = {};
 
 require('../lib/routes')(db, app);
-require('should');
 
 describe('level-http', function() {
 
