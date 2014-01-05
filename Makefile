@@ -1,4 +1,4 @@
-SRC = index.js lib/server.js lib/routes.js spec/level-http-spec.js
+SRC = index.js $(wildcard lib/*.js) $(wildcard spec/*.js)
 
 test: $(SRC)
 	@node node_modules/.bin/jshint $^
