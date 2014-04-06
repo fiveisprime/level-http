@@ -1,9 +1,7 @@
-level-http [![Build Status](https://travis-ci.org/fiveisprime/level-http.png?branch=master)](https://travis-ci.org/fiveisprime/level-http)
+level-http [![NPM version](https://badge.fury.io/js/level-http.svg)](http://badge.fury.io/js/level-http) [![Build Status](https://travis-ci.org/fiveisprime/level-http.svg?branch=master)](https://travis-ci.org/fiveisprime/level-http)
 ==========
 
 Access your LevelDB instances from multiple processes using HTTP.
-
-[![NPM](https://nodei.co/npm/level-http.png)](https://nodei.co/npm/level-http/)
 
 # Usage
 
